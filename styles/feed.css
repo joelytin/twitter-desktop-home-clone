@@ -1,0 +1,154 @@
+.item {
+   display: flex;
+   width: 612px;
+   height: auto;
+   position: relative;
+   
+   border-bottom-color: rgb(66, 66, 66);
+   border-bottom-style: solid;
+   border-width: 0.5px;
+}
+
+.author-picture-column {
+   margin: 12px 15px 15px 15px;
+}
+
+.author-picture {
+   width: 50px;
+   border-radius: 25px;
+   left: 0;
+}
+
+.tweet-header {
+   display: flex;
+   align-items: center;
+   margin-top: 12px;
+   margin-bottom: 7px;
+}
+
+.tweet-author,
+.tweet-author-handle,
+.caption {
+   color: white;
+   font-size: 15px;
+}
+
+.tweet-author {
+   font-weight: 600;
+   margin-right: 3px;
+}
+
+.verified-icon {
+   width: 16px;
+   margin-right: 4px;
+}
+
+.tweet-author-handle {
+   color: gray;
+   margin-right: 5px;
+}
+
+.date {
+   color: gray;
+   font-size: 15px;
+}
+
+.more-icon-container {
+   position: absolute;
+   right: 13px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   border-radius: 20px;
+   width: 35px;
+   height: 35px;
+
+   transition: background-color 0.15s;
+   cursor: pointer;
+}
+
+.more-icon-container:hover {
+   background-color: rgb(35, 35, 35);
+}
+
+.more-icon {
+   width: 21px;
+}
+
+.caption {
+   width: 500px;
+}
+
+.show-more {
+   color: #12B886;
+   width: 82px;
+   font-size: 15px;
+   cursor: pointer;
+}
+
+.show-more:hover {
+   text-decoration: underline;
+}
+
+.media img {
+   height: auto;
+   width: 512px;
+   margin-top: 15px;
+   border-radius: 17px;
+}
+
+.left-section {
+   display: flex;
+   align-items: center;
+   margin-top: 6px;
+   width: 430px;
+}
+
+.post-stats {
+   font-size: 13px;
+   color: #71767b;
+}
+
+.feed-icons-row {
+   display: flex;
+   align-items: center;
+   margin-bottom: 7px;
+}
+
+.icons-row-container {
+   display: flex;
+   align-items: center;
+   margin-right: 45px;
+}
+
+.feed-icons-container {
+   display: flex;
+   justify-content: center;
+   width: 35px;
+   height: 35px;
+   border-radius: 20px;
+   transition: background-color 0.15s;
+   cursor: pointer;
+}
+
+.feed-icons-container:hover {
+   background-color: rgb(35, 35, 35);
+}
+
+.feed-icons-container img {
+   width: 19px;
+}
+
+.right-section {
+   display: flex;
+   align-items: center;
+   justify-content: end;
+   position: absolute;
+   right: 3px;
+   margin-top: 6px;
+}
+
+.bookmark-icon,
+.share-icon {
+   width: 19px;
+}

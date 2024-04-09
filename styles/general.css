@@ -1,0 +1,76 @@
+* {
+   font-family: 'Open Sans', sans-serif;
+   margin-top: 0;
+   margin-bottom: 0;
+}
+
+body {
+   height: auto;
+   background-color: rgb(0,0,0);
+   margin-left: 350px;
+}
+
+.header {
+   background-color: rgb(0,0,0);
+   width: 612px;
+   height: 55px;
+   display: flex;
+   align-items: center;
+   border-bottom-color: rgb(66, 66, 66);
+   border-bottom-style: solid;
+   border-width: 0.5px;
+}
+
+.for-you-button,
+.following-button {
+   height: 54px;
+   width: 264px;
+   font-size: 14px;  
+   font-weight: 600;
+   cursor: pointer;
+   background-color: rgb(0,0,0);
+   color: white;
+   border: none;
+   transition: background-color 0.15s;
+}
+
+.for-you-button:hover,
+.following-button:hover {
+   background-color: rgb(35, 35, 35);
+}
+
+/* .for-you-bottom-bar {
+   background-color: green;
+   height: 10px;
+   width: 20px;
+   
+} */
+
+.settings-header {
+   width: 52px;
+   height: 54px;
+   display: flex;
+   align-items: center;
+   justify-content: end;
+}
+
+.settings-container {
+   height: 30px;
+   width: 30px;
+   border-radius: 15px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   cursor: pointer;
+   transition: background-color 0.15s;
+}
+
+.settings-container:hover {
+   background-color: rgb(35, 35, 35);
+}
+
+.settings-icon {
+   width: 22px;
+   height: 22px;
+   border-radius: 11px;
+}

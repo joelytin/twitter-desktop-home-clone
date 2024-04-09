@@ -1,0 +1,157 @@
+.right-sidebar {
+   position: fixed;
+   right: 0;
+   bottom: 0;
+   top: 0;
+   background-color: rgb(0,0,0);
+   width: 365px;
+   z-index: 200;
+   padding-top: 5px;
+   padding-left: 90px;
+   border-left-color: rgb(66, 66, 66);
+   border-left-style: solid;
+   border-width: 0.5px;
+}
+
+.search-button {
+   border: none;
+   background-color: #202327;
+   position: absolute;
+   top: 5px;
+   left: 30px;
+   height: 43px;
+   width: 50px;
+   border-radius: 50px 0 0 50px;
+   padding-left: 20px;
+   padding-right: 10px;
+   display: flex;
+   align-items: center;
+}
+
+.search-button img {
+   width: 18px;
+}
+
+.search-bar {
+   display: flex;
+   align-items: center;
+   position: absolute;
+   top: 5px;
+   left: 80px;
+   background-color: #202327;
+   color: #757575;
+   border: none;
+   height: 43px;
+   width: 350px;
+   border-radius: 0 50px 50px 0;
+   flex: 1;
+}
+
+.search-bar::placeholder {
+   font-size: 15px;
+}
+
+.subscribe-to-premium-container {
+   background-color: #16181C;
+   height: 150px;
+   width: 398px;
+   margin-top: 60px;
+   position: absolute;
+   left: 0;
+   margin-left: 30px;
+   border-radius: 15px;
+}
+
+.subscribe-to-premium-container h3,
+.subscribe-to-premium-container p,
+.subscribe-to-premium-container button {
+   color: white;
+   margin-left: 15px;
+   margin-top: 10px;
+   margin-right: 50px;
+}
+
+.subscribe-to-premium-container p {
+   font-size: 15px;
+}
+
+.subscribe-to-premium-container button {
+   background-color: #12B886;
+   color: white;
+   font-weight: bold;
+   font-size: 15px;
+   border: none;
+   border-radius: 25px;
+   width: 110px;
+   height: 36px;
+   cursor: pointer;
+   padding: 5px 5px 6px 5px;
+   transition: background-color 0.15s;
+}
+
+.subscribe-to-premium-container button:hover {
+   background-color: #0e9e73;
+}
+
+.trends-for-you-container {
+   background-color: #16181C;
+   height: 950px;
+   width: 398px;
+   margin-top: 230px;
+   position: absolute;
+   left: 0;
+   margin-left: 30px;
+   border-radius: 15px;
+}
+
+.trends-header {
+   position: relative;
+   top: 0;
+   left: 0;
+   right: 0;
+   display: flex;
+   align-items: center;
+   height: 45px;
+}
+
+.trends-header h3 {
+   color: white;
+   margin-left: 15px;
+   margin-right: 50px;
+}
+
+.trend-container {
+   display: flex;
+   justify-content: left;
+   flex-direction: column;
+   padding-top: 8px;
+   padding-bottom: 8px;
+   padding-left: 15px;
+   height: 65px;
+   cursor: pointer;
+}
+
+.trend-container:hover {
+   background: #23262d;;
+}
+
+.trend-info,
+.posts,
+.hashtag {
+   margin-top: 2px;
+}
+
+.trend-info,
+.posts {
+   color: gray;
+   font-size: 13px;
+}
+
+.hashtag {
+   color: white;
+   font-weight: bold;
+}
+
+.more-icon-container:hover {
+   background-color: rgb(48, 48, 70);
+}

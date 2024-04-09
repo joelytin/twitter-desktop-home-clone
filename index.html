@@ -1,0 +1,405 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <title>Twitter Clone</title>
+
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;700&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+   <link rel="stylesheet" href="styles/general.css">
+   <link rel="stylesheet" href="styles/feed.css">
+   <link rel="stylesheet" href="styles/post.css">
+   <link rel="stylesheet" href="styles/left-sidebar.css">
+   <link rel="stylesheet" href="styles/right-sidebar.css">
+</head>
+<body>
+   <main>
+      <header class="header">
+         <button class="for-you-button">For you</button>
+         <div class="for-you-bottom-bar"></div>
+         <button class="following-button">Following</button>
+         <div class="following-bottom-bar"></div>
+         <div class="settings-header">
+            <div class="settings-container">
+               <img class="settings-icon" src="icons/settings.svg">
+            </div>
+         </div>   
+      </header>
+
+      <section class="left-sidebar">
+         <div class="logo">
+            <div class="logo-container">
+               <img src="icons/twitter-logo.svg">
+            </div>
+         </div>
+         <div class="left-sidebar-link">
+            <img src="icons/home.svg">
+            <div>Home</div>
+         </div>
+         <div class="left-sidebar-link">
+            <img src="icons/search.svg">
+            <div>Explore</div>
+         </div>
+         <div class="left-sidebar-link">
+            <img src="icons/notifications.svg">
+            <div>Notifications</div>
+         </div>
+         <div class="left-sidebar-link">
+            <img src="icons/messages.svg">
+            <div>Messages</div>
+         </div>
+         <div class="left-sidebar-link">
+            <img src="icons/grok.svg">
+            <div>Grok</div>
+         </div>
+         <div class="left-sidebar-link">
+            <img src="icons/lists.svg">
+            <div>Lists</div>
+         </div>
+         <div class="left-sidebar-link">
+            <img src="icons/sidebar-bookmarks.svg">
+            <div>Bookmarks</div>
+         </div>
+         <div class="left-sidebar-link">
+            <img src="icons/communities.svg">
+            <div>Communities</div>
+         </div>
+         <div class="left-sidebar-link">
+            <img src="icons/twitter-logo.svg">
+            <div>Premium</div>
+         </div>
+         <div class="left-sidebar-link">
+            <img src="icons/profile.svg">
+            <div>Profile</div>
+         </div>
+         <div class="left-sidebar-link">
+            <img src="icons/sidebar-more.svg">
+            <div>More</div>
+         </div>
+         <div class="sidebar-post-button">Post</div>
+         <div class="sidebar-profile">
+            <div class="sidebar-profile-column">
+               <img src="pictures/profile-picture.jpg">
+            </div>
+            <div class="sidebar-profile-info-column">
+               <div class="username">Joely ✨</div>
+               <div class="handle">@joely</div>
+            </div>
+            <div class="sidebar-profile-right-column">
+               <img src="icons/more.svg">
+            </div>
+         </div>
+      </section>
+
+      <section class="right-sidebar">
+         <div class="search">
+            <button class="search-button">
+               <img src="icons/search-bar-search.svg">
+            </button>
+            <input class="search-bar" type="search" placeholder="Search">
+         </div>
+         <div class="subscribe-to-premium-container">
+            <h3>Subscribe to Premium</h3>
+            <p>Subscribe to unlock new features and if eligible, receive a share of ads revenue.</p>
+            <button class="subscribe-button">Subscribe</button>
+         </div>
+         <div class="trends-for-you-container">
+            <div class="trends-header">
+               <h3>Trends for you</h3>
+            </div>
+            <div class="trend-container">
+               <div class="trend-info">Trending</div>
+               <div class="hashtag">Drizzy</div>
+               <div class="posts">24.9K posts</div>
+               <div class="more-icon-container">
+                  <img class="more-icon" src="icons/more.svg">
+               </div>
+            </div>
+            <div class="trend-container">
+               <div class="trend-info">Only on X &centerdot; Trending</div>
+               <div class="hashtag">#SPM2023</div>
+               <div class="posts">23.1K posts</div>
+               <div class="more-icon-container">
+                  <img class="more-icon" src="icons/more.svg">
+               </div>
+            </div>
+            <div class="trend-container">
+               <div class="trend-info">Music &centerdot; Trending</div>
+               <div class="hashtag">drakes</div>
+               <div class="posts">22.1K posts</div>
+               <div class="more-icon-container">
+                  <img class="more-icon" src="icons/more.svg">
+               </div>
+            </div>
+            <div class="trend-container">
+               <div class="trend-info">Trending in Malaysia</div>
+               <div class="hashtag">King Charles</div>
+               <div class="posts">128K posts</div>
+               <div class="more-icon-container">
+                  <img class="more-icon" src="icons/more.svg">
+               </div>
+            </div>
+            <div class="trend-container">
+               <div class="trend-info">Gaming &centerdot; Trending</div>
+               <div class="hashtag">Palia</div>
+               <div class="more-icon-container">
+                  <img class="more-icon" src="icons/more.svg">
+               </div>
+            </div>
+            <div class="trend-container">
+               <div class="trend-info">Trending in Malaysia</div>
+               <div class="hashtag">Kuala Lumpur</div>
+               <div class="posts">2,479 posts</div>
+               <div class="more-icon-container">
+                  <img class="more-icon" src="icons/more.svg">
+               </div>
+            </div>
+         </div>
+      </section>
+
+      <section class="post-container">
+         <div class="post">
+            <div class="profile-picture-column">
+               <img class="profile-picture" src="pictures/profile-picture.jpg">
+            </div>
+
+            <div class="post-content-column">
+               <div class="message-row">
+                  <input class="message" type="text" placeholder="What is happening?!">
+               </div>
+
+               <div class="icons-row">
+                  <div class="icons-container">
+                     <img class="upload-photo-icon" src="icons/upload-photo.svg">
+                  </div>
+                  <div class="icons-container">
+                     <img class="upload-gif-icon" src="icons/upload-gif.svg">
+                  </div>
+                  <div class="icons-container">
+                     <img class="upload-poll-icon" src="icons/upload-poll.svg">
+                  </div>
+                  <div class="icons-container">
+                     <img class="upload-emoji-icon" src="icons/upload-emoji.svg">
+                  </div>
+                  <div class="icons-container">
+                     <img class="upload-schedule-icon" src="icons/upload-schedule.svg">
+                  </div>
+                  <div class="icons-container">
+                     <img class="upload-location-icon" src="icons/upload-location.svg">
+                  </div>
+               </div>
+               <div class="post-button">
+                  <button>Post</button>
+               </div>
+            </div>
+         </div>
+      </section>
+
+      <section class="feed">
+         <div class="item">
+            <div class="author-picture-column">
+               <img class="author-picture" src="pictures/author2.jpg">
+            </div>
+            <div class="tweet-column">
+               <div class="tweet-header">
+                  <div class="tweet-author">ʚ kimi ɞ</div>
+                  <div class="tweet-author-handle">@piinkimi_</div>
+                  <div class="date">&centerdot; 4h</div>
+                  <div class="more-icon-container">
+                     <img class="more-icon" src="icons/more.svg">
+                  </div>
+               </div>
+               <div class="tweet-content">
+                  <p class="caption">
+                     my melody strawberry pen
+                  </p>
+                  <div class="media">
+                     <img src="pictures/thumbnail2.jpeg">
+                  </div>
+               </div>
+               <div class="feed-icons-row">
+                  <div class="left-section">
+                     <div class="icons-row-container">
+                        <div class="feed-icons-container">
+                           <img class="reply-icon" src="icons/reply.svg">
+                        </div>
+                        <div class="post-stats">9</div>
+                     </div>
+   
+                     <div class="icons-row-container">
+                        <div class="feed-icons-container">
+                           <img class="repost-icon" src="icons/repost.svg">
+                        </div>
+                        <div class="post-stats">615</div>
+                     </div>
+   
+                     <div class="icons-row-container">
+                        <div class="feed-icons-container">
+                           <img class="like-icon" src="icons/like.svg">
+                        </div>
+                        <div class="post-stats">4.4K</div>
+                     </div>
+   
+                     <div class="icons-row-container">
+                        <div class="feed-icons-container">
+                           <img class="view-icon" src="icons/view.svg">
+                        </div>
+                        <div class="post-stats">70K</div>
+                     </div>
+                  </div>
+   
+                  <div class="right-section">
+                     <div class="feed-icons-container">
+                        <img class="bookmark-icon" src="icons/bookmark.svg">
+                     </div>
+   
+                     <div class="feed-icons-container">
+                        <img class="share-icon" src="icons/share.svg">
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+         
+         <div class="item">
+            <div class="author-picture-column">
+               <img class="author-picture" src="pictures/author1.jpg">
+            </div>
+            <div class="tweet-column">
+               <div class="tweet-header">
+                  <div class="tweet-author">Taylor Swift</div>
+                  <img class="verified-icon" src="icons/verified.svg">
+                  <div class="tweet-author-handle">@taylorswift13</div>
+                  <div class="date">&centerdot; Oct 12, 2023</div>
+                  <div class="more-icon-container">
+                     <img class="more-icon" src="icons/more.svg">
+                  </div>
+               </div>
+               <div class="tweet-content">
+                  <p class="caption">
+                     🩵 PREMIERE DAY 🩵 Andddd I can’t really wrap my head around this but…. Look what you genuinely made me do: Due to unprecedented demand we’re opening up early access showings of The Eras Tour Concert Film on THURSDAY in America and Canada!! As in… TOMORROW. We’re also adding...
+                  </p>
+                  <p class="show-more">
+                     Show more
+                  </p>
+                  <div class="media">
+                     <img src="pictures/thumbnail1.jpeg">
+                  </div>
+               </div>
+               <div class="feed-icons-row">
+                  <div class="left-section">
+                     <div class="icons-row-container">
+                        <div class="feed-icons-container">
+                           <img class="reply-icon" src="icons/reply.svg">
+                        </div>
+                        <div class="post-stats">14K</div>
+                     </div>
+   
+                     <div class="icons-row-container">
+                        <div class="feed-icons-container">
+                           <img class="repost-icon" src="icons/repost.svg">
+                        </div>
+                        <div class="post-stats">116K</div>
+                     </div>
+   
+                     <div class="icons-row-container">
+                        <div class="feed-icons-container">
+                           <img class="like-icon" src="icons/like.svg">
+                        </div>
+                        <div class="post-stats">592K</div>
+                     </div>
+   
+                     <div class="icons-row-container">
+                        <div class="feed-icons-container">
+                           <img class="view-icon" src="icons/view.svg">
+                        </div>
+                        <div class="post-stats">36M</div>
+                     </div>
+                  </div>
+   
+                  <div class="right-section">
+                     <div class="feed-icons-container">
+                        <img class="bookmark-icon" src="icons/bookmark.svg">
+                     </div>
+   
+                     <div class="feed-icons-container">
+                        <img class="share-icon" src="icons/share.svg">
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+
+         <div class="item">
+            <div class="author-picture-column">
+               <img class="author-picture" src="pictures/author3.jpg">
+            </div>
+            <div class="tweet-column">
+               <div class="tweet-header">
+                  <div class="tweet-author">Invis🧜‍♀️</div>
+                  <div class="tweet-author-handle">@invis4yo</div>
+                  <div class="date">&centerdot; Feb 6</div>
+                  <div class="more-icon-container">
+                     <img class="more-icon" src="icons/more.svg">
+                  </div>
+               </div>
+               <div class="tweet-content">
+                  <p class="caption">
+                     
+                  </p>
+                  <p class="show-more">
+                     
+                  </p>
+                  <div class="media">
+                     <img src="pictures/thumbnail3.jpg">
+                  </div>
+               </div>
+               <div class="feed-icons-row">
+                  <div class="left-section">
+                     <div class="icons-row-container">
+                        <div class="feed-icons-container">
+                           <img class="reply-icon" src="icons/reply.svg">
+                        </div>
+                        <div class="post-stats">301</div>
+                     </div>
+   
+                     <div class="icons-row-container">
+                        <div class="feed-icons-container">
+                           <img class="repost-icon" src="icons/repost.svg">
+                        </div>
+                        <div class="post-stats">64K</div>
+                     </div>
+   
+                     <div class="icons-row-container">
+                        <div class="feed-icons-container">
+                           <img class="like-icon" src="icons/like.svg">
+                        </div>
+                        <div class="post-stats">280K</div>
+                     </div>
+   
+                     <div class="icons-row-container">
+                        <div class="feed-icons-container">
+                           <img class="view-icon" src="icons/view.svg">
+                        </div>
+                        <div class="post-stats">10M</div>
+                     </div>
+                  </div>
+   
+                  <div class="right-section">
+                     <div class="feed-icons-container">
+                        <img class="bookmark-icon" src="icons/bookmark.svg">
+                     </div>
+   
+                     <div class="feed-icons-container">
+                        <img class="share-icon" src="icons/share.svg">
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+         
+      </section>
+   </main>
+</body>
+</html>

@@ -1,0 +1,133 @@
+.left-sidebar {
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   top: 0;
+   background-color: rgb(0,0,0);
+   width: 260px;
+   z-index: 200;
+   padding-top: 5px;
+   padding-left: 90px;
+   border-right-color: rgb(66, 66, 66);
+   border-right-style: solid;
+   border-width: 0.5px;
+}
+
+.logo-container {
+   display: flex;
+   align-items: center;
+   height: 55px;
+   width: 55px;
+   
+   border-radius: 30px;
+   cursor: pointer;
+   transition: background-color 0.15s;
+}
+
+.logo-container img,
+.sidebar-profile-right-column img {
+   width: 25px;
+   height: 25px;
+   padding-left: 15px;
+}
+
+.logo-container:hover {
+   background-color: rgb(22, 22, 22);
+}
+
+.left-sidebar-link {
+   height: 50px;
+   width: fit-content;
+   display: flex;
+   justify-content: left;
+   align-items: center;
+   cursor: pointer;
+   padding-left: 15px;
+   padding-right: 30px;
+   border-radius: 50px;
+   transition: background-color 0.15s;
+}
+
+.left-sidebar-link:hover {
+   background-color: rgb(22, 22, 22);
+}
+
+.left-sidebar-link div {
+   color: white;
+   font-size: 20px;
+}
+
+.left-sidebar-link img {
+   width: 25px;
+   height: 25px;
+   margin-right: 18px;
+}
+
+.sidebar-post-button {
+   background-color: #12B886;
+   color: white;
+   font-weight: bold;
+   font-size: 17px;
+   border: none;
+   border-radius: 25px;
+   width: 215px;
+   height: 40px;
+   cursor: pointer;
+   padding: 5px 5px 6px 5px;
+   transition: background-color 0.15s;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   margin-top: 7px;
+}
+
+.sidebar-post-button:hover {
+   background-color: #0e9e73;
+}
+
+.sidebar-profile {
+   display: flex;
+   align-items: center;
+   margin-top: 25px;
+   height: 70px;
+   width: 250px;
+   border-radius: 40px;
+   cursor: pointer;
+   transition: background-color 0.15s;
+}
+
+.sidebar-profile:hover {
+   background-color: rgb(22, 22, 22);
+}
+
+.sidebar-profile-column {
+   margin-right: 12px;
+}
+
+.sidebar-profile-column img {
+   width: 40px;
+   border-radius: 25px;
+   
+   margin-left: 12px;
+}
+
+.sidebar-profile-right-column {
+   display: flex;
+   align-items: center;
+   position: absolute;
+   right: 20px;
+}
+
+.username,
+.handle {
+   font-size: 15px;
+}
+
+.username {
+   color: white;
+   font-weight: 500;
+}
+
+.handle {
+   color: gray;
+}
